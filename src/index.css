@@ -7,7 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 code {
@@ -15,7 +14,11 @@ code {
     monospace;
 }
 
-h2{
+h2 {
   margin: 0;
   padding: 0;
-  }
+}
+
+p {
+  margin: 0;
+}
