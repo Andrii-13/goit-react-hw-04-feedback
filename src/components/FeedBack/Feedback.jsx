@@ -1,19 +1,12 @@
-import { Title, Wrap } from 'components/Styles/Styles.styled';
+import { Wrap } from 'components/Styles/Styles.styled';
 import { Buttons } from './Feedback.styled';
+import { Section } from 'components/Section/Section';
 
-export const Feedback =({buttonClick })=> {
+export const FeedbackOption =({buttonClick, title})=> {
 
-  //  // встановлення дефолтного значення пропсів, ящо не задано ззовні
-  //  static defaultProps = {
-  //   setGood: 0,
-  //   setNeutral: 0,
-  //   setBad: 0,
-  // };
-
- 
     return (
       <Wrap>
-        <Title>Please leave feedback</Title>
+        <Section title={title}/>
         <Buttons onClick={buttonClick}>
           <button type="button">Good</button>
           <button type="button">Neutral</button>
