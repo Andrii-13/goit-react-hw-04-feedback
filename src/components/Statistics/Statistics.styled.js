@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Resp = styled.div`
+export const StatInfo = styled.div`
 display: flex;
 flex-direction: column;
   font-size: 20px;
