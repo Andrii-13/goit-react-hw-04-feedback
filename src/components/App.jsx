@@ -38,13 +38,13 @@ export class App extends Component {
     const { good, neutral, bad } = this.state;
     return (
       <>
-        <Section title= 'Please leave feedback'>
+        <Section title= 'Please leave feedback' tagItem="h1">
           <FeedbackOption
             buttonClick={this.buttonClick}
             options={Object.keys(this.state)}
           />
         </Section>
-        <Section title = 'Statistics'>
+        <Section title = 'Statistics' >
           {good + neutral + bad > 0 ? (
           <Statistics
               good={good}
